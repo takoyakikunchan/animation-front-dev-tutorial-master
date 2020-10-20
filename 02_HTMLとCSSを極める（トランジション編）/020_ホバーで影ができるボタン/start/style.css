@@ -1,5 +1,6 @@
 #container {
-  text-align: center; }
+  text-align: center;
+}
 
 .btn {
   background-color: white;
@@ -10,12 +11,11 @@
   font-weight: 600;
   cursor: pointer;
   -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .btn.float:hover {
   -webkit-box-shadow: 7px 6px 10px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 7px 6px 10px 0px rgba(0, 0, 0, 0.5); }
-
-/*# sourceMappingURL=style.css.map */
-
+          box-shadow: 7px 6px 10px 0px rgba(0, 0, 0, 0.5);
+}
 /*# sourceMappingURL=style.css.map */

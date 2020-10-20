@@ -1,9 +1,9 @@
 {
-	"version": 3,
-	"file": "loader.css",
-	"sources": [
-		"loader.css"
-	],
-	"names": [],
-	"mappings": "AAAA,YAAY;AAAA,sCAAsC"
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "loader.scss"
+    ],
+    "names": [],
+    "file": "loader.css"
 }

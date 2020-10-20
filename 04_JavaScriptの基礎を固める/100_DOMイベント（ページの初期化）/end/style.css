@@ -1,14 +1,14 @@
 @charset "UTF-8";
 strong {
   display: block;
-  color: red; }
+  color: red;
+}
 
 .done {
-  color: green; }
+  color: green;
+}
 
 .done::before {
-  content: '✔'; }
-
-/*# sourceMappingURL=style.css.map */
-
+  content: '✔';
+}
 /*# sourceMappingURL=style.css.map */

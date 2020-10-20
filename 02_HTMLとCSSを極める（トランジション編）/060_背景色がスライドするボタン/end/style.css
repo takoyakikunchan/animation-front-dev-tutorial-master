@@ -1,5 +1,6 @@
 #container {
-  text-align: center; }
+  text-align: center;
+}
 
 .btn {
   background-color: white;
@@ -10,12 +11,14 @@
   font-weight: 600;
   cursor: pointer;
   -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .btn.slide-bg {
   position: relative;
   overflow: hidden;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .btn.slide-bg span {
   display: inline-block;
@@ -26,20 +29,20 @@
   top: 0;
   left: 0;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  z-index: -1; }
+  z-index: -1;
+}
 
 .btn.slide-bg:hover {
-  color: white; }
+  color: white;
+}
 
 .btn.slide-bg:hover span {
   -webkit-transform: none;
-  transform: none; }
-
-/*# sourceMappingURL=style.css.map */
-
+          transform: none;
+}
 /*# sourceMappingURL=style.css.map */

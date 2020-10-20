@@ -1,9 +1,10 @@
 {
-	"version": 3,
-	"file": "style.css",
-	"sources": [
-		"style.css"
-	],
-	"names": [],
-	"mappings": "AAAA,YAAY;AAAA,qCAAqC"
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "_mixin.scss"
+    ],
+    "names": [],
+    "file": "style.css"
 }

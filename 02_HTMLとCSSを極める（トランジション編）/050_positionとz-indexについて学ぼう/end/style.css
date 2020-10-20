@@ -1,6 +1,7 @@
 #container {
   padding: 1rem;
-  background-color: gray; }
+  background-color: gray;
+}
 
 div {
   font-weight: 600;
@@ -9,22 +10,24 @@ div {
   width: 150px;
   height: 150px;
   -webkit-box-shadow: 7px 7px 0 0 #000;
-  box-shadow: 7px 7px 0 0 #000; }
+          box-shadow: 7px 7px 0 0 #000;
+}
 
 .div-1 {
-  background: orange; }
+  background: orange;
+}
 
 .div-2 {
-  background: tomato; }
+  background: tomato;
+}
 
 .div-3 {
-  background: teal; }
+  background: teal;
+}
 
 .div-4 {
   width: 80px;
   height: 80px;
-  background-color: violet; }
-
-/*# sourceMappingURL=style.css.map */
-
+  background-color: violet;
+}
 /*# sourceMappingURL=style.css.map */
