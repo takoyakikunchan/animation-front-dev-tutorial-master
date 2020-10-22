@@ -7,7 +7,7 @@ img {
 
 .cover-slide {
   position: relative;
-  overflow: hidden;
+  overflow: hidden; //scaleX(1.5);で大じくなった時にはみ出た部分を取り除くため
 
   &::after {
     content: "";
