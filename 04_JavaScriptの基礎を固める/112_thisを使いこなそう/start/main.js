@@ -18,6 +18,20 @@ class TextAnimation {
         }, "");
     }
     animate() {
-        this.el.classList.toggle('inview');
+        console.log(this);
+        window.setTimeout(function(){
+            console.log(this); //このthisはwindowだが、それを
+            this.el.classList.toggle('inview');//こっちのthisでelを参照できるように、elのオブジェクトであるTextAnimationをthisとして指定したい
+        }.bind(this)); //関数の後にbindメソッドを記載することで、animateスコープの中のおthisはtextanimationを参照しているので、そっちが優先されるようになり、thisがTextAnimationになりエラー解消
+       
+    }
+
+    animate() {
+        const _that = this;
+        window.setTimeout(function(){
+            console.log(this); //このthisはwindowだが、それを
+            _that.el.classList.toggle('inview');//こっちのthisでelを参照できるように、elのオブジェクトであるTextAnimationをthisとして指定したい
+        }); //animateスコープの中のthisはtextanimationを参照しているので、そのthisを変数「_that」に格納して、使用する方法もある。
+       
     }
 }

@@ -5,8 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     ta.animate();
     ta2.animate();
     btn.addEventListener('click', ta.animate.bind(ta));
-});
-
+    btn.addEventListener('click', function(){
+        ta.animate
+    });
 
 class TextAnimation {
     constructor(el) {
